@@ -22,13 +22,17 @@
 .header-logo{
     display: inline-block;
     text-align: center;
-    font-size: x-large;
-    
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    line-height: 27px;
+    font-style: normal;
+    letter-spacing: 3px;
 }
 
 #logo {
-    font-size: x-large;
-    text-align: center;
+    justify-content: center;
     align-items: center;
     display: inline-block;
     margin-left: 75px;
@@ -36,9 +40,20 @@
     background-color: black;
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 7px;
+    padding-left: 13px;
+    padding-right: 7px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 33px;
+    
+
+
 }
 
 .social {
@@ -96,10 +111,10 @@
 .text {
     display: inline-block;
     margin-left: 90px;
-    
+    margin-right: 0px;
     margin-top: 35px;
     margin-bottom: 80px;
-    border: 2px solid black;
+    font-family: "Inter", sans-serif;
 }
 
 .text1 {
@@ -107,37 +122,139 @@
     margin-bottom: 0px;
     font-weight: 500;
     font-size: 16px;
-    border: 3px solid red;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
 }
 
 h1 {
     display: block;
-    margin-bottom: 250px;
+    font-size: 48px;
+    line-height: 50px;
     width: 480px;
     font-weight: 600;
-    border: 3px solid red;
-}
+ }
 
-#text2 {
-    
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border: 3px solid green;
-    
-}
-
-.infor > p{
+.infor {
     display: inline-block;
+    margin-top: 80x;
+    margin-bottom: 25px;
+}
+.infor > p{
+    display: block;
     
+}
+
+#infor1 {
+    display: inline-block;
+}
+
+#infor2, #infor3 {
+    display: inline-block;
+    margin-left: 45px;
 }
 
 .number {
+    display: block;
+    margin-bottom: 5px;
     font-size: 36px;
     font-weight: 800;
     color: #F26464;
+    
 }
 
 .notenumber {
+    letter-spacing: 1px;
+    font-size: 16px;  
+}
+
+.kc {
+    color: white;
+}
+
+.aboutme {
+    margin-left: 75px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+h2 {
+    display: block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 19px;
     font-size: 16px;
+    padding-bottom: 7px;
+    margin-bottom: 23px;
+    width: 126px;
+    border-bottom: 3px solid #F26464;
+    
+    
+}
+
+#metext {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    margin-right: 60px;
+}
+
+.download {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 2px solid #F26464;
+    text-align: center;
+    margin-left: 41%;
+    width: 235px;
+    height: 55px;
+    border-radius: 60px;
+    color: #F26464;
+    font-weight: 400; 
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+}
+
+.skill {
+    font-family: "Inter", sans-serif;
+    margin-top: 80px;
+    margin-left: 20%px;
+    margin-right: 40px;
+    display: block;
+}
+
+.skill > div {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.core, .other{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+}
+
+.skill span {
+    display: inline-block;
+    color: #373737;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #D7D7D7;
+    border-radius: 27px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+    line-height: 21px;
+
 }
